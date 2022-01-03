@@ -36,5 +36,37 @@ a {
     color: #FAFAFA;
 }
 
+a:hover, #candydiv:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#homecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+#h1div {
+    font-size: 2rem;
+}
+
+#homecontainer button {
+    background-color: transparent;
+    border: 2px solid #FAFAFA;
+    border-radius: 10px;
+    padding: .45em .40em;
+    margin: 0 0.4em;
+    color: #FAFAFA;
+    font-size: 1.25rem;
+   
+}
+
+#homecontainer button:hover {
+    cursor: pointer;
+}
 
 
