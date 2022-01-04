@@ -12,9 +12,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     width: 100%;
     border-bottom: 2px solid black;
     font-size: 1.25rem;
+    background-color: #232323;
 }
 
 #candydiv {
@@ -69,6 +71,9 @@ a:hover, #candydiv:hover {
     cursor: pointer;
 }
 
+/* END Home stylings 
+   BEGIN About stylings */ 
+
 #aboutcontainer {
     display: flex;
     align-items: center;
@@ -96,3 +101,46 @@ a:hover, #candydiv:hover {
     text-align: left;
 }
 
+/* END About stylings 
+   BEGIN Projects stylings */
+
+#projectscontainer {
+    display: flex; 
+    flex-direction: column;
+    
+    min-height: 100vh;
+    font-size: 1.25rem;
+}
+
+#projectscontainer h2 {
+    font-size: 2.5rem;
+    margin: 1.55em auto;
+}
+
+#projectscardwrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.projectcard {
+    /* border: 2px solid #FAFAFA; */
+    text-align: center;
+    height: 20em;
+    width: 30em;
+    margin: 2em;
+}
+
+.projectpreview {
+    border: 2px dashed darkred;
+    height: 70%;
+    width: 65%;
+    margin: auto;
+}
+
+#tictactoepreview {
+    background-image: url("./images/tictactoepreview.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
