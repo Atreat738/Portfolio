@@ -67,7 +67,7 @@ a:hover, #candydiv:hover {
    
 }
 
-#homecontainer button:hover {
+#homecontainer button:hover, .projectbutton:hover {
     cursor: pointer;
 }
 
@@ -109,7 +109,7 @@ a:hover, #candydiv:hover {
     flex-direction: column;
     
     min-height: 100vh;
-    font-size: 1.25rem;
+    font-size: 1.5rem;
 }
 
 #projectscontainer h2 {
@@ -132,7 +132,6 @@ a:hover, #candydiv:hover {
 }
 
 .projectpreview {
-    border: 2px dashed darkred;
     height: 70%;
     width: 65%;
     margin: auto;
@@ -143,4 +142,34 @@ a:hover, #candydiv:hover {
     background-size: contain;
     background-repeat: no-repeat;
     
+}
+
+#weatherpreview {
+    background-image: url("./images/weatherpreview.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#calculatorpreview {
+    background-image: url("./images/calcpreview.PNG");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+
+#coffeepreview {
+    background-image: url('./images/coffeepreview.PNG');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.projectbutton {
+    background-color: transparent;
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    border-radius: 10px;
+    margin: 0 0.5em;
+    padding: 0.45em 0.40em;
+    font-size: 1.05rem;
 }
